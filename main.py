@@ -8,6 +8,7 @@ def pythagoreanFormula(a, b):
 
 #this function gets the user input
 def getInfo(): 
+  #each variable will store the user input
   aValue = int(input("Enter the A value: "))
   bValue = int(input("Enter the B value: "))
   pythagoreanFormula(aValue, bValue)
